@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    display: flex;
+    margin: 100px auto;
+    width: 90%;
+    height: 800px;
+    background-color: rgb(223, 208, 208);
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+
+.card {
+    margin: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: aquamarine;
+    box-shadow: 1px 1px 10px 5px grey;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    transition: all 0.1s ease-in-out;
+}
+
+
+.card:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+    transform: rotate(20deg);
+}
+
+#card1:hover{
+    background-color: aliceblue;
+    transform: scale(1.1);
+    transform: rotate(-45deg);
+}

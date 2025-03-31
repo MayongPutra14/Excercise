@@ -1,0 +1,15 @@
+Box model merupakan sebuah pernyataan bahwa seluruh elemen yang ada di html adalah box.
+salah satu kelebihan dari Box model adalh kitabisa mengatur width dan height dari sebuah elemen (content).
+
+property yang termasuk kedalam box model adalah:
+1. Width & Height
+2. Margin & Padding
+3. Border
+
+
+kalo margin nilai yang diberika ketika ke suatu elemen dan ada elemen di bawah (pada umumnya) elemen tersebut, maka nilai margin yang diberika akan bertabah, sebagai contoh =:
+Jika kita memberikan margin 20px, maka jarak dari elemen atas kebawah = 20px. Kemudian jarak dari elemen bawah keatas adalah = 20px. Jadi nilai dari margin itu bertamba.
+
+
+
+
