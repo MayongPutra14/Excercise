@@ -1,0 +1,50 @@
+.animation {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+  margin: 100px auto;
+
+  /* This is the property of animation */
+  /* animation-name: spin;
+  animation-duration: 2s;
+ /* in means, the bevahe of the animation when we run */
+  /* animation-timing-function: ease-in-out;
+  animation-delay: s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;  */ 
+  /*if we use it, it will stop at the end of animation, so the animation doesnt jump back to the first condition*/
+  /* animation-play-state: paused; */
+
+  animation: spin 2s ease 1s infinite alternate forwards paused;
+}
+
+.animation:hover {
+    animation-play-state: running;
+    
+
+    /* this animation fit with hover so if you want use it make sure that you use it in proper way */
+
+
+}
+
+@keyframes spin {
+  0% {
+    /* This section means the condition before the animation start */
+  }
+
+  50% {
+    scale: 2; /*This section means the condition in halft animation*/
+    transform: rotate(0);
+    border-radius: 0;
+  }
+
+  100% {
+    /*This section means the condition animation in the end of animation*/
+    transform: rotate(360deg);
+    border-radius: 50%;
+    scale: 2; /*If we want the shape keep itself  we have to define the condition that we want, in this we add scale*/
+  }
+}
+
+/* The shorthand of this prperty is animation : animatio-name | animation-duration |  animation-timing-function | animation-delay | animation-iteration-count | animation-direction | animation-fill-mode |animation-play-state | animation-timeline. */

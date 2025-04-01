@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin: 1000px auto;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 0.0;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+}
+
+p{
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    padding: 20px 0px 0px;
+    margin: 20px auto;
+
+}
+
+
+
+@keyframes fade {
+    0% {
+
+        transform: translateX(-100px);
+    }
+
+
+    100% {
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,31 @@
+:root {
+    font-size: 12px;
+}
+
+/* main {
+    display: flex;
+    font-size: 5px;
+} */
+
+article .padding {
+    margin: 100px auto;
+    background-color: beige;
+    width: 200px;
+    padding: min(5em, 15%);
+    border-radius: 10px;
+    box-shadow: 1px 12px 30px 1px grey;
+    font-size: 1em;
+}
+
+
+.container {
+    background-color: beige;
+    width: 500px;
+    min-width: 300px;
+    max-width: 100%;
+}
+
+p {
+    font-size: 1em;
+}
+

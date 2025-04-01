@@ -1,0 +1,36 @@
+div {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    margin: 500px auto 0px;
+    transition: all 0.5s ease;
+    /* perspective:1000px; */
+    /* transform: perspective(5000px) rotateY(45deg) */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -250px;
+    left: 350px;
+
+}
+
+
+p {
+    background: steelblue;
+    /* transform: rotateY(45deg); */
+}
+
+
+div img:hover {
+    /* transform: rotate(180deg); */
+    /* transform:rotate3d(1,0,0, 360deg) */
+
+    transform: perspective(500px)rotatex(45deg);
+}
+
+img:hover{
+    transform: translateY(-400px);
+}

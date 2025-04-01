@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'anonymousregular';
+    src:
+         url('Anonymous-webfont.woff2') format('woff2'),
+         url('Anonymous-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+h1, h2 {
+    margin: 100px auto;
+    font-family: "anonymousregular";
+}
+
+ 
+
+h2 {
+    background-color: pink;
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    text-shadow: 10px 10px 6px white;
+    font-size: xx-large;
+}
+
+.linear {
+    width: 100px;
+    height: 200px;
+    background-image: linear-gradient(to left bottom, red,blue);
+}

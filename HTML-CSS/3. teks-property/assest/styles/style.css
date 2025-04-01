@@ -1,0 +1,39 @@
+h1 {
+    color: navajowhite;
+    background-color: coral;
+    text-align: center;
+    /* Mengubah warna dan mengatur tataletak menjadi ke tengah */
+}
+
+h2 {
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    border-bottom: 1px dashed black;
+    /* setiap h2 yang ada di HTML akan di ubah warna, font, background-color, serta menambha border */
+}
+
+.paragraft-1{
+    color: rgb(87, 32, 124);
+    background-color: antiquewhite;
+    text-align: justify; /* menjadikan teks rata kanan kiri*/
+    letter-spacing: 3px; /*setiap huruf akan berjarak 3px */
+}
+
+.paragraft-2 {
+    color: white;
+    width: 40%;
+    margin: 10px;
+    padding: 30px;
+    background-color:grey;
+    text-align: center;
+    border: 1px solid red;
+    font-weight: 800; /*ketebalan huruf*/
+    text-wrap: nowrap; /*ini akan membuat teks yang ada didalam kotak tembus keluar tidak tertahan oleh kotak*/
+}
+
+
+.paragraft-3 ul {
+    list-style: revert;
+    
+}

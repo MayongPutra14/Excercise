@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color:#F8FAFC;
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 70px 0px 25px;
+    /* padding: 0px;
+    margin: 0px;
+    background-color:#F8FAFC; */
+}
+
+img {
+    border-radius: 15px;
+    margin: 10px ;
+    max-width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.profile p i {
+    display: block;
+    margin: 10px;
+    background-color: antiquewhite;
+    width: 35%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, h3 {
+    font-weight: bolder;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+    margin: 10px 0px 10px 0px;
+    width: 40%;
+    font-family: 'Oswald', sans-serif;
+    /* border-bottom: 1px solid gray; */
+    /* box-shadow: 0px 5px 100px -10px black; */
+}
+
+p {
+    text-align: justify;
+    line-height: 0.55cm;
+    margin:0px 10px 10px 10px ;
+    /* margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+}
+
+a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #33cc99;
+    text-decoration: none;
+}
+
+.baca-juga{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.perkembangan .list {
+    list-style-type: square;
+    margin-left: 10px;
+    
+}
+
+textarea, label {
+    /* display: inline; */
+}
