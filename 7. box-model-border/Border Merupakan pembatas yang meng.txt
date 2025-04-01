@@ -1,3 +1,0 @@
-Border Merupakan pembatas yang mengelilingi konten sesuai dengan nilai yang kita berikan
-border memiliki banyak property , dan propertynya bisa di pakai shorthand atau satu persatu.
-Ketika kita memberikan nilai dengan menggunakan shorthand maka pembacaannya dari atas, kanan, Bawah, dan kiri(searah jarum jam).
